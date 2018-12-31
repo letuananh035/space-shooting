@@ -10,6 +10,6 @@ global.enemy_bullet_object = [];
 global.enemy_bullet_name[0] = "Bullet 1"
 global.enemy_bullet_dmg[0] = 10;
 global.enemy_bullet_speed[0] = 15;
-global.enemy_bullet_delay[0] = 10;
+global.enemy_bullet_delay[0] = 2;
 global.enemy_bullet_time[0] = 10;
 global.enemy_bullet_object[0] = obj_bullet_v1;

@@ -6,3 +6,4 @@ with(instance_create_depth(x,y - sprite_yoffset + 5, 1 , global.enemy_bullet_obj
 	spd = global.enemy_bullet_speed[other.type_bullet]
 	alarm[0] = global.enemy_bullet_time[other.type_bullet] * room_speed
 }
+alarm[0] = global.enemy_bullet_delay[type_bullet] * room_speed

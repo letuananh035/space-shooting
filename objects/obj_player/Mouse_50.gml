@@ -15,6 +15,7 @@ if(isAttach){
 if(x_prv == -1 && y_prv == -1){
 	x_prv = x;
 	y_prv = y;	
+	
 }
 
 x = (mouse_x - x_press) + x_prv;

@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 x_ = irandom_range(46, room_width - 46)
-var type = 0; // id quai
+var type = 1; // id quai
 with(instance_create_depth(x_,-50,0, obj_enemy)){
 	sprite_index = global.enemy_sprite[type];
 	attack = 15

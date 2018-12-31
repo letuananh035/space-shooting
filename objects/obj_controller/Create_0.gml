@@ -9,4 +9,5 @@ src_init_player_bullet()
 src_init_enemy()
 src_init_enemy_bullet()
 
-
+//Demo boss
+alarm[1] = 1 * room_speed // 1 giay
