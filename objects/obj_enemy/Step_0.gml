@@ -9,9 +9,8 @@ if(limit_y == -1){
 	}
 }
 //Tao randoom qua lai cho phu` hop
-rand = irandom_range(0, 100)
-if(rand < 10){
-	x += 10	
-} else if(rand < 20){
-	x -= 10	
+x += movex
+
+if(y > room_height + 100){
+	instance_destroy(self);	
 }

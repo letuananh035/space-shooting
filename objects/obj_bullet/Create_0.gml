@@ -3,4 +3,5 @@
 spd = 15
 dmg = 0
 depth = 1;
+image_speed = 1
 //alarm[0] = room_speed * time_life

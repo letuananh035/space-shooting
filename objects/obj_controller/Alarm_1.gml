@@ -16,4 +16,4 @@ with(instance_create_depth(x_,-50,0, obj_enemy)){
 }
 
 
-alarm[0] = 50;
+//alarm[0] = 50;
