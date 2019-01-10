@@ -5,13 +5,13 @@
     "name": "obj_shop_atk",
     "eventList": [
         {
-            "id": "d7828e2f-b353-49a2-b6b8-a88ef28631d5",
+            "id": "41af83e4-6b13-45b8-b445-fa6daeefd545",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
+            "enumb": 64,
+            "eventtype": 8,
             "m_owner": "23258be7-6ff1-429d-a516-d5c21596efc0"
         }
     ],
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "acc237ad-c79f-44fe-964f-346359c2fea6",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-with(instance_create_depth(x,y - sprite_yoffset + 5, 1 , obj_bullet_enemy)){
+with(instance_create_depth(x,y, 1 , obj_bullet_enemy)){
 	sprite_index = global.enemy_bullet_sprite[other.type_bullet]
 	dmg = global.enemy_bullet_dmg[other.type_bullet];
 	spd = global.enemy_bullet_speed[other.type_bullet]

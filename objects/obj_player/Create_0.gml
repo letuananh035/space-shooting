@@ -15,4 +15,7 @@ y_press = -1;
 depth = 0;
 
 keypress = false;
-global.player_hp = global.player_hp_max
+global.player_hp = global.player_hp_max + src_get_upgrade_hp()
+
+
+non_dmg = false;

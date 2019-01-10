@@ -33,10 +33,9 @@
 //}
 //}
 
-var scene = 0;
-src_create_enemy_with_scene(scene, couter);
+src_create_enemy_with_scene(global.scene_room, couter);
 couter++;
-if(couter < global.scene_turn_count[scene]){
+if(couter < global.scene_turn_count[global.scene_room]){
 	alarm[0] = 100;
 }else{
 	alarm[0] = -1;

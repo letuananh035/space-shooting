@@ -2,9 +2,10 @@
 // You can write your code in this editor
 if(keypress == false) return;
 if(isAttach){
+	audio_play_sound(sound_player, 10, false)
 	with(instance_create_depth(x,y - sprite_yoffset + 5, 1 , obj_bullet)){
 		var id_bullet = global.player_bullet_type;
-		dmg = global.player_attack + global.player_bullet_dmg[id_bullet]
+		dmg = global.player_atk_upgrade * 5 + (global.player_atk_upgrade div 2) * 5 + global.player_bullet_dmg[id_bullet]
 		alarm[0] = global.player_bullet_time[id_bullet]
 		spd = global.player_bullet_speed[0]
 		sprite_index = global.player_bullet_sprite[id_bullet]
